@@ -27,25 +27,18 @@
     </section>
 
     <section id="projects">
-        <h2>My Projects</h2>
-        <div class="gallery">
-            <div class="project">
-                <h3>Project 1</h3>
-                <button class="toggle-btn">Show Details</button>
-                <p class="details" style="display: none;">This is a placeholder for Project 1. More details coming soon!</p>
-            </div>
-            <div class="project">
-                <h3>Project 2</h3>
-                <button class="toggle-btn">Show Details</button>
-                <p class="details" style="display: none;">This is a placeholder for Project 2. Stay tuned!</p>
-            </div>
-            <div class="project">
-                <h3>My New Project</h3>
-                <p>A web app I built using HTML, CSS, and JavaScript to showcase my skills.</p>
-                <button class="toggle-btn">Show Details</button>
-                <div class="details" style="display: none;">
-                    <p>Built with responsive design and interactive features.</p>
-                </div>
+        <h2>Projects</h2>
+        <div class="filter-buttons">
+            <button class="filter-btn" data-category="all">All</button>
+            <button class="filter-btn" data-category="html">HTML</button>
+            <button class="filter-btn" data-category="javascript">JavaScript</button>
+        </div>
+        <div class="project" data-category="html">
+            <h3>My New Project</h3>
+            <p>A web app I built using HTML, CSS, and JavaScript to showcase my skills.</p>
+            <button class="toggle-btn">Show Details</button>
+            <div class="details" style="display: none;">
+                <p>Built with responsive design and interactive features.</p>
             </div>
         </div>
     </section>
